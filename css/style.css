@@ -1,0 +1,194 @@
+@font-face{
+    src: url(../Fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: "sacramento";
+}
+@font-face{
+    src: url(../Fonts/Merriweather/Merriweather-Light.ttf);
+    font-family: "merri";
+}@font-face{
+    src: url(../Fonts/Montserrat/Montserrat-Bold.ttf);
+    font-family: "mon2";
+}
+body{
+    margin: 0;
+    text-align: center;
+    color:darkcyan;
+    font-family: "mon2";
+    font-size: 100%;
+}
+.top-div{
+    padding: 30px;
+    padding-bottom: 0%;
+    background: linear-gradient(to top,rgb(72, 187, 233),rgb(72, 187, 233),rgb(233, 233, 70),rgb(238, 238, 36));
+}
+
+.senten{
+    line-height: 10px;
+    color: black;
+    font-family: "merri";
+    text-align: center;
+    
+}
+#paragraph{
+
+    color: black;
+    font-family: "merri";
+}
+    
+#title1{
+    color: transparent;
+   font-family: "sacramento";
+   font-size: 90px;
+   background: linear-gradient(to top,rgb(3, 46, 61),rgb(199, 241, 11));
+    -webkit-background-clip: text;
+}
+#title2{
+    color: transparent;
+    font-family:"mon2";
+    font-size: 30px;
+    background: linear-gradient(to top,rgb(28, 82, 100),rgb(16, 212, 226));
+    -webkit-background-clip: text;
+}
+#profile{
+    border-radius: 100%;
+}
+#cloud1{
+    position:absolute;
+    margin-left: 400px;
+    animation: moveInLeft 2s ease-out;
+}
+#cloud2{
+    position: absolute;
+    margin: auto;
+    animation: moveInRight 2s ease-out;
+}
+#sun{
+    padding-left: 70%;
+    width: 20%;
+    height: 20%;
+    animation: moveInTop 2s ease-out;
+}
+#arrow-img{
+    position: absolute;
+    margin-left: -200px ;
+    margin-top: -65px;
+    height: 60px;
+    width: 60px;
+
+}
+#inter-img{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -60px;
+    height: 80px;
+    width: 85px;
+}
+#anima-img{
+    position: absolute;
+    margin-left: -240px;
+    margin-top: -65px;
+    height: 110px;
+    width: 110px;
+}
+@keyframes moveInRight{
+    0%{
+        opacity: 5;
+        transform: translateX(40rem);
+    }
+    100%{
+        opacity: 5;
+        transform: translateX(0);
+    }
+}
+@keyframes moveInLeft{
+    0%{
+        opacity: 5;
+        transform: translateX(-30rem);
+    }
+    100%{
+        opacity: 5;
+        transform: translateX(0);
+    }
+}
+@keyframes moveInTop{
+    0%{
+        opacity: 5;
+        transform: translateY(40rem);
+    }
+    100%{
+        opacity: 5;
+        transform: translateX(0);
+    }
+}
+#user{
+    position: absolute;
+    padding-top: 3%;
+    padding-left: 18%;
+    margin-bottom: 70%;
+    width: 90px;
+    height: 90px;
+}
+#h1{
+    color: transparent;
+    font-size: 400%;
+    padding-bottom:5%;
+    background: linear-gradient(to top,rgb(28, 82, 100),rgb(16, 212, 226));
+    -webkit-background-clip: text;
+}
+#hello{
+    color: transparent;
+    background: linear-gradient(to top,rgb(28, 82, 100),rgb(16, 212, 226));
+    -webkit-background-clip: text;
+}
+.skill{
+    font-size: 20px;
+}
+.inter{
+    position: absolute;
+    padding-left: 28%;
+    width: 20%;
+    height: 20%;
+}
+#footer1{
+    padding-top: 50px;
+    font-size: 50px;
+    color: transparent;
+    background: linear-gradient(to top,rgb(28, 82, 100),rgb(16, 212, 226));
+    -webkit-background-clip: text;
+}
+#footer2{
+    color: transparent;
+    background: linear-gradient(to top,rgb(28, 82, 100),rgb(16, 212, 226));
+    -webkit-background-clip: text;
+    padding-top: 0%;
+    font-size: 30px;
+}
+#button{
+    font-family: "mon2";
+    background-color: skyblue;
+    padding: 10px  20px;
+    margin-top: 10%;
+}
+#button:hover{
+
+    background-color: rgb(28, 82, 100);
+}
+   
+.footer{
+    
+    background: linear-gradient(to top,rgb(72, 187, 233),rgb(233, 233, 70));
+    font-size: 100%;
+    padding: 40px;
+    margin-top: 10%;
+}
+#nameft{
+    font-size: 200%;
+    color: transparent;
+    background: linear-gradient(to top,rgb(13, 106, 139),rgb(198, 223, 89));
+    -webkit-background-clip: text;
+}
+.link{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px;
+}
